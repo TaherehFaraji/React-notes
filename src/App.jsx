@@ -11,11 +11,12 @@ import RadioExample from "./RadioExample";
 import SignupForm from "./SignupForm"
 import Wallet from "./Wallet";
 import SearchPage from "./SearchPage";
+import ColorPicker from "./ColorPicker.jsx"
 
 function App() {
   return (
     <>
-      <TodoList />
+      {/* <TodoList />
       <NameInpot />
       <ToggelMeessage />
       <h1>My React app</h1>
@@ -35,7 +36,8 @@ function App() {
       <RadioExample />
       <SignupForm />
       <Wallet />
-      <SearchPage />
+      <SearchPage /> */}
+      <ColorPicker />
     </>
   )
 }
