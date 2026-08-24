@@ -12,6 +12,8 @@ import SignupForm from "./SignupForm"
 import Wallet from "./Wallet";
 import SearchPage from "./SearchPage";
 import ColorPicker from "./ColorPicker.jsx"
+import AuthToggle from "./AuthToggle.jsx"
+import Clock from "./Clock.jsx"
 
 function App() {
   return (
@@ -37,7 +39,9 @@ function App() {
       <SignupForm />
       <Wallet />
       <SearchPage /> */}
-      <ColorPicker />
+      {/* <ColorPicker /> */}
+      {/* <AuthToggle /> */}
+      <Clock />
     </>
   )
 }
